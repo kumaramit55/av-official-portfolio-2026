@@ -8,17 +8,17 @@ import {
 } from "react-icons/fa";
 
 const projects = [
-  {
-    title: "Library Management System",
-    subtitle: "Internship Project",
-    description:
-      "Built professional UI features including server-side pagination, complex filters, and role-based access control. Integrated REST APIs with a focus on scalable component architecture.",
-    tech: ["React", "MUI", "REST API", "Axios"],
-    icon: <FaBook className="text-blue-500" />,
-    live: "#",
-    code: "#",
-    hot: true, // Highlight as professional work
-  },
+  // {
+  //   title: "Library Management System",
+  //   subtitle: "Internship Project",
+  //   description:
+  //     "Built professional UI features including server-side pagination, complex filters, and role-based access control. Integrated REST APIs with a focus on scalable component architecture.",
+  //   tech: ["React", "MUI", "REST API", "Axios"],
+  //   icon: <FaBook className="text-blue-500" />,
+  //   live: "#",
+  //   code: "#",
+  //   hot: true, // Highlight as professional work
+  // },
   {
     title: "Modern E-Commerce",
     subtitle: "State Management Project",
@@ -26,7 +26,7 @@ const projects = [
       "A full-featured shopping experience. Implemented Redux for global state management (cart logic), responsive product grids, and a seamless checkout flow.",
     tech: ["React", "Redux", "Tailwind CSS"],
     icon: <FaShoppingCart className="text-emerald-500" />,
-    live: "#",
+    live: "https://shopease-e-com.netlify.app/login",
     code: "#",
   },
   {
@@ -36,7 +36,7 @@ const projects = [
       "A high-performance landing page focused on aesthetic UI and smooth user experience. Built using semantic HTML and custom CSS for pixel-perfect responsiveness.",
     tech: ["HTML5", "CSS3", "JavaScript"],
     icon: <FaLeaf className="text-green-500" />,
-    live: "#",
+    live: "https://yoga-center.netlify.app/",
     code: "#",
   },
   {
@@ -115,6 +115,7 @@ const Projects = () => {
               <div className="flex gap-4 pt-6 border-t border-gray-100">
                 <a
                   href={project.live}
+                  target="_blank"
                   className="flex items-center gap-2 text-sm font-bold text-gray-900 hover:text-blue-600 transition-colors">
                   <FaExternalLinkAlt className="text-xs" /> Live Demo
                 </a>
