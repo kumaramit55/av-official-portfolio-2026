@@ -51,7 +51,7 @@ const Hero = () => {
 
           <a
             href={myResume} // The slash starts at the 'public' folder
-            download="Amit_Verma_Resume" // This renames the file for the user when they download it
+            download="Amit_Kumar_Resume" // This renames the file for the user when they download it
             target="_blank" // Fallback to open in new tab if download fails
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-3 border border-gray-700 hover:border-blue-400 text-white rounded-full transition-all font-semibold active:scale-95 text-center">
